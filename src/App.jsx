@@ -1,25 +1,29 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import Header from "./Components/Header";
 import Home from "./Pages/Home";
-import Browse from "./Pages/Browse";
-import { Feature, OptForm } from "./Components";
-import {
-  FaqsContainer,
-  FooterContainer,
-  JumbotronContainer,
-  HeaderContainer,
-} from "./Containers";
+import About from "./Pages/About";
+import Explore from "./Pages/Explore";
+import CustomApp from "./Pages/CustomApp";
+import Register from "./Pages/Register";
+import ContactUs from "./Pages/ContactUs";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/browse" element={<Browse />} />
-      </Routes>
-      <Feature />
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/about-us" element={<About />}></Route>
+          <Route exact path="/explore" element={<Explore />}></Route>
+          <Route exact path="/custom-app" element={<CustomApp />}></Route>
+          <Route exact path="/contact-us" element={<ContactUs />}></Route>
+          <Route exact path="/register" element={<Register />}></Route>
+        </Routes>
+      </Router>
     </>
   );
 }
