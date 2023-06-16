@@ -55,19 +55,19 @@ export default function Hero() {
 }
 
 export function AnimDiv() {
-  const colors = [
-    ["#009688", "#4caf50", "#8bc34a", "#cddc39", "#ffeb3b"],
-    ["#ffeb3b", "#009688", "#4caf50", "#8bc34a", "#cddc39"],
-    ["#cddc39", "#009688", "#4caf50", "#ffeb3b", "#8bc34a"],
-    ["#8bc34a", "#cddc39", "#009688", "#ffeb3b", "#4caf50"],
-    ["#4caf50", "#8bc34a", "#cddc39", "#009688", "#ffeb3b"],
+  const backcolors = [
+    ["bg-[#009688]", "bg-[#4caf50]", "bg-[#8bc34a]", "bg-[#cddc39]", "bg-[#ffeb3b]"],
+    ["bg-[#ffeb3b]", "bg-[#009688]", "bg-[#4caf50]", "bg-[#8bc34a]", "bg-[#cddc39]"],
+    ["bg-[#cddc39]", "bg-[#009688]", "bg-[#4caf50]", "bg-[#ffeb3b]", "bg-[#8bc34a]"],
+    ["bg-[#8bc34a]", "bg-[#cddc39]", "bg-[#009688]", "bg-[#ffeb3b]", "bg-[#4caf50]"],
+    ["bg-[#4caf50]", "bg-[#8bc34a]", "bg-[#cddc39]", "bg-[#009688]", "bg-[#ffeb3b]"],
   ];
-  const [color, setcolor] = useState(colors[2]);
+  const [backcolor, setBackcolor] = useState(backcolors[2]);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      let size = colors.length;
-      setcolor(() => colors[Math.floor(Math.random() * size)]);
+      let size = backcolors.length;
+      setBackcolor(() => backcolors[Math.floor(Math.random() * size)]);
     }, 500);
     return () => clearInterval(interval);
   }, []);
@@ -75,27 +75,27 @@ export function AnimDiv() {
   return (
     <div className="flex gap-3 mt-5">
       <div
-        className={`text-[white] bg-[${color[0]}] rounded-full w-10 h-10 md:w-24 md:h-24 text-[26px] md:text-[44px]  transition-all text-center flex items-center justify-center `}
+        className={`text-[white] ${backcolor[0]} rounded-full w-10 h-10 md:w-24 md:h-24 text-[26px] md:text-[44px]  transition-all text-center flex items-center justify-center `}
       >
         De
       </div>
       <div
-        className={`text-[white] bg-[${color[1]}] rounded-full w-8 h-8 md:w-24 md:h-20 text-[22px] md:text-[34px]  transition-all text-center flex items-center justify-center `}
+        className={`text-[white] ${backcolor[1]} rounded-full w-8 h-8 md:w-24 md:h-20 text-[22px] md:text-[34px]  transition-all text-center flex items-center justify-center `}
       >
         ve
       </div>
       <div
-        className={`text-[green] bg-[${color[2]}] rounded-full w-6 h-6 md:w-24 md:h-16 text-[18px] md:text-[28px]  transition-all text-center flex items-center justify-center `}
+        className={`text-[green] ${backcolor[2]} rounded-full w-6 h-6 md:w-24 md:h-16 text-[18px] md:text-[28px]  transition-all text-center flex items-center justify-center `}
       >
         rp
       </div>
       <div
-        className={`text-[black] bg-[${color[3]}] rounded-full w-4 h-4 md:w-24 md:h-12 text-[16px] md:text-[24px]  transition-all text-center flex items-center justify-center `}
+        className={`text-[black] ${backcolor[3]} rounded-full w-4 h-4 md:w-24 md:h-12 text-[16px] md:text-[24px]  transition-all text-center flex items-center justify-center `}
       >
         oo
       </div>
       <div
-        className={`text-[black] bg-[${color[4]}] rounded-full w-2 h-2 md:w-24 md:h-8  text-[10px] md:text-[18px] transition-all text-center flex items-center justify-center `}
+        className={`text-[black] ${backcolor[4]} rounded-full w-2 h-2 md:w-24 md:h-8  text-[10px] md:text-[18px] transition-all text-center flex items-center justify-center `}
       >
         l
       </div>
