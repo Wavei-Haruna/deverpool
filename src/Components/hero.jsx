@@ -31,7 +31,7 @@ export default function Hero() {
   }, []);
   return (
     <>
-      <main className="relative bg-slate-100 py-7 my-56 flex flex-col items-center justify-center rounded-b-2xl">
+      <main className="relative bg-slate-100 py-7 my-56 flex flex-col items-center justify-center rounded-b-2xl ">
         <div className="bg-[#ccc] p-5 rounded-md">
           <img
             src={hero.images[imageToDisplay]}
