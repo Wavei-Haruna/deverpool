@@ -7,8 +7,10 @@ export default function ScrollIndicator({ link, fill }) {
     let icon = document.querySelector("#arrow-indicator");
     let btn = document.querySelector("#arrow-indicator-btn");
     const timeout = setTimeout(() => {
-      btn.style.rotate = "-20deg";
+      btn.style.rotate = "360deg";
       btn.style.bottom = "1rem";
+      icon.style.width='3rem'
+      icon.style.height='3rem'
     }, 5000);
     return () => clearTimeout(timeout);
   }, []);
@@ -16,7 +18,8 @@ export default function ScrollIndicator({ link, fill }) {
   return (
     <button
       id="arrow-indicator-btn"
-      className="group rounded-full opacity-70 hover:opacity-100 bg-[#d9d9b78f] p-2 hover:bg-gray-50 hover:p-4 hover:rotate-[20deg] shadow-black transition-all absolute bottom-[calc(90%-7rem)] right-3"
+      style={{ transition: "all 1000ms ease" }}
+      className="group rounded-full opacity-70 hover:opacity-100 bg-[#d9d9b78f] p-2 hover:bg-gray-50 hover:p-4 shadow-black transition-all absolute bottom-[calc(90%-7rem)] right-3"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
