@@ -56,11 +56,41 @@ export default function Hero() {
 
 export function AnimDiv() {
   const backcolors = [
-    ["bg-[#009688]", "bg-[#4caf50]", "bg-[#8bc34a]", "bg-[#cddc39]", "bg-[#ffeb3b]"],
-    ["bg-[#ffeb3b]", "bg-[#009688]", "bg-[#4caf50]", "bg-[#8bc34a]", "bg-[#cddc39]"],
-    ["bg-[#cddc39]", "bg-[#009688]", "bg-[#4caf50]", "bg-[#ffeb3b]", "bg-[#8bc34a]"],
-    ["bg-[#8bc34a]", "bg-[#cddc39]", "bg-[#009688]", "bg-[#ffeb3b]", "bg-[#4caf50]"],
-    ["bg-[#4caf50]", "bg-[#8bc34a]", "bg-[#cddc39]", "bg-[#009688]", "bg-[#ffeb3b]"],
+    [
+      "bg-[#009688]",
+      "bg-[#4caf50]",
+      "bg-[#8bc34a]",
+      "bg-[#cddc39]",
+      "bg-[#ffeb3b]",
+    ],
+    [
+      "bg-[#ffeb3b]",
+      "bg-[#009688]",
+      "bg-[#4caf50]",
+      "bg-[#8bc34a]",
+      "bg-[#cddc39]",
+    ],
+    [
+      "bg-[#cddc39]",
+      "bg-[#009688]",
+      "bg-[#4caf50]",
+      "bg-[#ffeb3b]",
+      "bg-[#8bc34a]",
+    ],
+    [
+      "bg-[#8bc34a]",
+      "bg-[#cddc39]",
+      "bg-[#009688]",
+      "bg-[#ffeb3b]",
+      "bg-[#4caf50]",
+    ],
+    [
+      "bg-[#4caf50]",
+      "bg-[#8bc34a]",
+      "bg-[#cddc39]",
+      "bg-[#009688]",
+      "bg-[#ffeb3b]",
+    ],
   ];
   const [backcolor, setBackcolor] = useState(backcolors[2]);
 
@@ -68,7 +98,7 @@ export function AnimDiv() {
     const interval = setInterval(() => {
       let size = backcolors.length;
       setBackcolor(() => backcolors[Math.floor(Math.random() * size)]);
-    }, 500);
+    }, 600);
     return () => clearInterval(interval);
   }, []);
 
