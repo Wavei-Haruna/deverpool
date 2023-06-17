@@ -12,7 +12,7 @@ export default function Header() {
     if (route == location.pathname) return true;
   };
   return (
-    <nav className=" bg-white shadow-md h-fit w-screen m-0 px-2">
+    <nav className=" bg-white shadow-md h-fit w-full m-0 px-2">
       <header className="md:flex items-center justify-between max-w-6xl w-full mx-auto">
         <div className=" flex items-center justify-between">
           <img className="h-24 " src={Logo} alt="logo" />
@@ -27,11 +27,11 @@ export default function Header() {
         </div>
         <div className="">
           <ul
-            className={`flex  absolute md:items-center px-6 space-y-2  ease-in-out  left-0 -mt-3 md:mt-0 py-2 bg-white  rounded-lg shadow-md transition-transform duration-500 
+            className={`flex  absolute md:items-center px-6 space-y-2  ease-in-out  left-0 -mt-3 md:mt-0 py-2 bg-white shadow-md transition-all duration-300 
               justify-center md:relative md:space-y-0
             md:justify-between flex-col md:flex-row text-[#666666] md:space-x-10 font-menu ${
               !isOpen
-                ? "hidden md:flex translate-x-full md:translate-x-0"
+                ? "hidden md:flex -translate-x-full md:translate-x-0"
                 : "block md:flex  translate-x-0"
             }`}
           >
