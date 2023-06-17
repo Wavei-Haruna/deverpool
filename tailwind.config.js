@@ -6,7 +6,11 @@ export default {
       menu: ["poppins"],
       hero: ["Montserrat Alternates"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#04ff07",
+      },
+    },
   },
   plugins: [],
 };

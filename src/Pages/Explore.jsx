@@ -21,12 +21,16 @@ export default function Explore() {
       Explore
       {isHovered && (
         <ul
-          className="absolute left-0 mt-2 p-2 bg-white rounded-lg shadow-lg "
+          className="absolute left-0 mt-2 p-2 bg-white transition-all shadow-md rounded-md duration-300 ease-in-out "
           onMouseLeave={subMenumouseOut}
         >
-          <li className="cursor-pointer   w-fit px-2">All Apps</li>
-          <li className="cursor-pointer   w-fit px-2">Categories </li>
-          <li className="cursor-pointer   w-fit px-2">Top rated</li>
+          <li className="cursor-pointer   w-fit px-2 text-sm p-3">All Apps</li>
+          <li className="cursor-pointer   w-fit px-2 text-sm py-3">
+            Categories{" "}
+          </li>
+          <li className="cursor-pointer   w-fit px-2 text-sm py-3">
+            Top rated
+          </li>
         </ul>
       )}
     </li>
