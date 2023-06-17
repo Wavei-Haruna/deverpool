@@ -1,5 +1,3 @@
-import { PhoneIcon, Star } from "./Icons";
-const path = "../../assets/Images/people/";
 import { FaPhone, FaStar } from "react-icons/fa";
 
 export default function AppThumbnail({ app }) {
@@ -10,7 +8,7 @@ export default function AppThumbnail({ app }) {
         <div className="grid gap-2">
           <div className="flex items-start justify-normal gap-6">
             <img
-              src={path + app.image}
+              src={'/Images/people/' + app.image}
               alt=""
               className="w-[70px] h-[70px] rounded-[30px]"
             />

@@ -1,6 +1,4 @@
 import { FaAngleRight } from "react-icons/fa";
-import { TaillessArrow } from "./Utils/Icons";
-
 
 export default function TopHero() {
   return (

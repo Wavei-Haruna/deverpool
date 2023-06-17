@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { data } from "../assets/data/files";
-import ScrollIndicator from "./Utils/Icons";
-
+import { FaArrowRight } from "react-icons/fa";
 const content = {
   headline:
     "A concise and attention-grabbing headline is placed prominently on top of the hero image or video. The headline should convey the main message or value proposition of the website, enticing visitors to explore further.",
@@ -47,7 +46,7 @@ export default function AnimCp() {
         </div>
 
         <div>
-          <ScrollIndicator />
+          <FaArrowRight />
         </div>
       </main>
     </>
