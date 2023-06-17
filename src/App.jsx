@@ -7,6 +7,7 @@ import Explore from "./Pages/Explore";
 import CustomApp from "./Pages/CustomApp";
 import Register from "./Pages/Register";
 import ContactUs from "./Pages/ContactUs";
+import TestFirst from "./Pages/test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/custom-app" element={<CustomApp />}></Route>
           <Route exact path="/contact-us" element={<ContactUs />}></Route>
           <Route exact path="/register" element={<Register />}></Route>
+          <Route exact path="/test" element={<TestFirst />}></Route>
         </Routes>
       </Router>
     </>
