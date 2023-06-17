@@ -1,4 +1,4 @@
-import { FaAngleRight } from "react-icons/fa";
+import { TaillessArrow } from "./utils/icons";
 
 export default function TopHero() {
   return (
@@ -11,9 +11,9 @@ export default function TopHero() {
           Simplifying software procurement and customization for developers and
           clients.
         </span>
-        <button className="primary-btn w-[fit-content] p-2 flex items-center text-white text-[18px] rounded font-bold">
+        <button className="w-[fit-content] p-2 flex items-center bg-[#4bb543] text-white text-[18px] rounded font-bold">
           <span className="whitespace-nowrap">Get started</span>
-          <FaAngleRight color="white" />
+          <TaillessArrow />
         </button>
       </div>
       <div

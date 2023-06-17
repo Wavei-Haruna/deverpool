@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       menu: ["poppins"],
+      hero: ["Montserrat Alternates"],
     },
     extend: {},
   },
