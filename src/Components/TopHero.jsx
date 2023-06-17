@@ -1,4 +1,5 @@
-import { FaAngleRight, FaArrowRight } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
+import heroImage from "../assets/Images/cto.png";
 
 export default function TopHero() {
   return (
@@ -11,15 +12,14 @@ export default function TopHero() {
           Simplifying software procurement and customization for developers and
           clients.
         </span>
-        <button className="w-[fit-content] p-2 flex items-center bg-[#4bb543] text-white text-[18px] rounded font-bold">
+        <button className="primary-btn p-2 flex items-center bg-[#4bb543] text-white text-[18px] rounded font-bold">
           <span className="whitespace-nowrap">Get started</span>
           <FaAngleRight color="white" />
         </button>
       </div>
-      <div
-        style={{ backgroundImage: "url(/images/devices/i14d.jpg)" }}
-        className="bg-center bg-no-repeat bg-contain min-h-[300px] min-w-[200px] flex-grow"
-      ></div>
+      <div className="bg-center bg-no-repeat bg-contain min-h-[300px] w-auto min-w-[300px] flex-grow">
+        <img src={heroImage} alt="hero-image" />
+      </div>
     </div>
   );
 }
