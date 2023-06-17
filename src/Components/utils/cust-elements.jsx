@@ -1,4 +1,6 @@
-import {  PhoneIcon, Star } from "./icons";
+import { PhoneIcon, Star } from "./Icons";
+const path = "../../assets/Images/people/";
+import { FaPhone, FaStar } from "react-icons/fa";
 
 export default function AppThumbnail({ app }) {
   return (
@@ -8,13 +10,13 @@ export default function AppThumbnail({ app }) {
         <div className="grid gap-2">
           <div className="flex items-start justify-normal gap-6">
             <img
-              src={app.image}
+              src={path + app.image}
               alt=""
               className="w-[70px] h-[70px] rounded-[30px]"
             />
             <span className="flex items-center">
               {app.stars}
-              <Star fill="#fae105" />
+              <FaStar color="#ffec3c" />
             </span>
           </div>
 
@@ -22,7 +24,7 @@ export default function AppThumbnail({ app }) {
 
           <p className="flex gap-3 text-blue-600">
             {app.phone}
-            <PhoneIcon fill="black" />
+            <FaPhone color="black" />
           </p>
 
           <p>{app.technologies}</p>

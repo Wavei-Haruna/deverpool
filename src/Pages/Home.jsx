@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../Components/hero";
-import TopHero from "../Components/he";
-import Featured from "../Components/featured";
-import NewApps from "../Components/new-arrivals";
+import TopHero from "../Components/TopHero";
+import Featured from "../Components/FeaturedApps";
+import NewApps from "../Components/NewApps";
+import AnimCp from "../Components/Anim";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Featured />
       <NewApps />
       <br />
-      <Hero />
+      <AnimCp />
     </div>
   );
 }
