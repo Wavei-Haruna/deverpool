@@ -6,7 +6,7 @@ export let apps = [
     stars: "2.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS2000",
+    price: "GHC 2000",
     negotiable: true,days:'3 days ago'
   },
   {
@@ -16,7 +16,7 @@ export let apps = [
     stars: "2.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "Hospital manager",
-    price: "GHS6800",
+    price: "GHC 6800",
     negotiable: true,days:'2 months ago'
   },
   {
@@ -26,7 +26,7 @@ export let apps = [
     stars: "2.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "Hostel manager",
-    price: "GHS1800",
+    price: "GHC 1800",
     negotiable: true,days:'13 days ago'
   },
   {
@@ -36,7 +36,7 @@ export let apps = [
     stars: "4.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS7200",
+    price: "GHC 7200",
     negotiable: true,days:'43 days ago'
   },
   {
@@ -46,7 +46,7 @@ export let apps = [
     stars: "2.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "Academic results catalog",
-    price: "GHS42000",
+    price: "GHC 42000",
     negotiable: true,days:'3yrs days ago'
   },
   {
@@ -56,7 +56,7 @@ export let apps = [
     stars: "1.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS2000",
+    price: "GHC 2000",
     negotiable: true,days:'3 days ago'
   },
   {
@@ -66,7 +66,7 @@ export let apps = [
     stars: "3.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS2000",
+    price: "GHC 2000",
     negotiable: true,days:'3 days ago'
   },
   {
@@ -76,7 +76,7 @@ export let apps = [
     stars: "5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS2000",
+    price: "GHC 2000",
     negotiable: true,days:'3 days ago'
   },
   {
@@ -86,7 +86,7 @@ export let apps = [
     stars: "5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS2000",
+    price: "GHC 2000",
     negotiable: true,days:'3 days ago'
   },
   {
@@ -96,7 +96,7 @@ export let apps = [
     stars: "3.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
-    price: "GHS2800",
+    price: "GHC 2800",
     negotiable: true,days:'3 days ago'
   },
   {
@@ -106,7 +106,7 @@ export let apps = [
     stars: "4.5",
     technologies: "React, Nextjs,Nuxtjs",
     app: "Hotel manager",
-    price: "GHS4000",
+    price: "GHC 4000",
     negotiable: true,days:'3 days ago'
   },
 ];

@@ -67,7 +67,7 @@ export function Star({ fill = "none", textcolor }) {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={"w-6 h-6 " + (textcolor || "text-[#8f8f17]")}
+      className={"w-5 h-5 " + (textcolor || "text-[#fae105]")}
     >
       <path
         strokeLinecap="round"
@@ -77,7 +77,7 @@ export function Star({ fill = "none", textcolor }) {
     </svg>
   );
 }
-export function Phone({ fill = "none",textcolor }) {
+export function PhoneIcon({ fill = "none",textcolor ,rotate}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,9 @@ export function Phone({ fill = "none",textcolor }) {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={`${textcolor|| 'text-black'} w-5 h-5`}
+      className={`${textcolor || "text-black"} ${
+        rotate || "rotate-[10deg]"
+      }  w-5 h-5 `}
     >
       <path
         strokeLinecap="round"
