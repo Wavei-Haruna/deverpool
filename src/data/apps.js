@@ -7,7 +7,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 2000",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
   {
     owner: "Tiehisung Areez",
@@ -17,7 +18,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "Hospital manager",
     price: "GHC 6800",
-    negotiable: true,days:'2 months ago'
+    negotiable: true,
+    days: "2 months ago",
   },
   {
     owner: "Ameerat Tiehisung",
@@ -27,7 +29,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "Hostel manager",
     price: "GHC 1800",
-    negotiable: true,days:'13 days ago'
+    negotiable: true,
+    days: "13 days ago",
   },
   {
     owner: "Wavei Harun",
@@ -37,7 +40,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 7200",
-    negotiable: true,days:'43 days ago'
+    negotiable: true,
+    days: "43 days ago",
   },
   {
     owner: "Samad Ultra",
@@ -47,7 +51,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "Academic results catalog",
     price: "GHC 42000",
-    negotiable: true,days:'3yrs days ago'
+    negotiable: true,
+    days: "3yrs days ago",
   },
   {
     owner: "Bawiani Awudu",
@@ -57,7 +62,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 2000",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
   {
     owner: "Mantani Nabeel",
@@ -67,7 +73,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 2000",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
   {
     owner: "Musah Gado",
@@ -77,7 +84,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 2000",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
   {
     owner: "Nakiat Nasr",
@@ -87,7 +95,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 2000",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
   {
     owner: "Alhassan Mariam",
@@ -97,7 +106,8 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "School manager",
     price: "GHC 2800",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
   {
     owner: "Umu Atia",
@@ -107,6 +117,7 @@ export let apps = [
     technologies: "React, Nextjs,Nuxtjs",
     app: "Hotel manager",
     price: "GHC 4000",
-    negotiable: true,days:'3 days ago'
+    negotiable: true,
+    days: "3 days ago",
   },
 ];
