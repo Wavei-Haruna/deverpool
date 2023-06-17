@@ -11,10 +11,11 @@ export default function TopHero() {
           Simplifying software procurement and customization for developers and
           clients.
         </span>
-        <button className="w-[fit-content] p-2 flex items-center bg-[#4bb543] text-white text-[18px] rounded font-bold">
+        <button className="primary-btn w-[fit-content] p-2 flex items-center text-white text-[18px] rounded font-bold">
           <span className="whitespace-nowrap">Get started</span>
           <TaillessArrow />
         </button>
+        
       </div>
       <div
         style={{ backgroundImage: "url(/images/devices/i14d.jpg)" }}

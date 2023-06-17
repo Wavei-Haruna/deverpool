@@ -6,10 +6,10 @@ export default function NewApps() {
     <main className="mt-[140px]">
       <div className="flex justify-between items-center w-full px-5">
         <h2 className="text-[22px] font-bold">New apps</h2>
-        <div className="flex px-2 py-2 rounded bg-white border-2 focus-within:outline outline-slate-600 outline-2">
+        <div className="flex px-2 py-2 rounded basic-inputWrapper">
           <input
             type="text"
-            className=" indent-3 outline-none"
+            className=" outline-none"
             placeholder="Search apps"
           />
           <SearchIcon />

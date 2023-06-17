@@ -2,3 +2,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.basic-input,
+.basic-select {
+  border: solid 1px graytext;
+  border-radius: 7px;
+  padding: 3px 7px;
+}
+.basic-input:focus,
+.basic-select:focus {
+  outline: solid 2px green;
+}
+.basic-inputWrapper {
+  @apply bg-inherit border focus-within:outline outline-[black] outline-2;
+}
+
+.basic-table,
+.basic-table-td,
+.basic-table-th {
+}
+
+/* BUTTONS */
+.default-btn {
+  @apply bg-[#1b1b1b] hover:bg-[#2f2e2e] active:bg-[#474545] transition-all;
+}
+
+.primary-btn {
+  @apply bg-[#4bb543] hover:bg-[#4eb547] active:bg-[#52c949] transition-all;
+}
+
+.secondary-btn {
+  @apply bg-[#eeeeee] hover:bg-[#e7e7e7] active:bg-[#cecece] transition-all text-black;
+}
+
+.prim-delete-btn {
+  @apply bg-[#ec503f] hover:bg-[#ed5e4e] active:bg-[#f55746] transition-all;
+}
+.sec-delete-btn {
+  @apply bg-transparent shadow-sm shadow-[#ed5e4e] text-[#ed5e4e] hover:text-[#ed5e4e] active:text-[#ff7a6b] transition-all;
+}
+.remove-btn {
+  @apply bg-transparent border border-[#ed5e4e] text-[#ed5e4e] hover:text-[#ed5e4e] active:text-[#ff7a6b] transition-all;
+}
