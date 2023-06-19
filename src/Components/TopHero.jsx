@@ -1,13 +1,16 @@
 import { FaAngleRight } from "react-icons/fa";
 import heroImage from "../assets/Images/cto.png";
+import SlideLeft from "../Animations/SlideLeft";
 
 export default function TopHero() {
   return (
     <div className="grid md:grid-cols-2 flex-col-reverse gap-4 mt-24 px-2">
       <div className="flex flex-col gap-4 items-center justify-center text-center min-w-[300px] max-w">
-        <h1 className="text-center text-2xl md:text-3xl font-bold">
-          Discover, purchase, and customize your perfect software solution.
-        </h1>
+        <SlideLeft x={-600} duration={0.5} once={true}>
+          <h1 className="text-center text-2xl md:text-3xl font-bold">
+            Discover, purchase, and customize your perfect software solution.
+          </h1>
+        </SlideLeft>
         <span>
           Simplifying software procurement and customization for developers and
           clients.
