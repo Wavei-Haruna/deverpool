@@ -12,17 +12,9 @@ export default function TopHero() {
           Simplifying software procurement and customization for developers and
           clients.
         </span>
-<<<<<<< HEAD:src/Components/he.jsx
-        <button className="w-[fit-content] p-2 flex items-center bg-[#04ff07] hover:scale-105 text-white text-[18px] rounded font-bold">
-          <span className="whitespace-nowrap font-menu font-medium ">
-            Get started
-          </span>
-          <TaillessArrow />
-=======
         <button className="primary-btn p-2 flex items-center bg-[#4bb543] text-white text-[18px] rounded font-bold">
           <span className="whitespace-nowrap">Get started</span>
           <FaAngleRight color="white" />
->>>>>>> f55a0f6c67e3b5b7561d1aebe3213b36799d5533:src/Components/TopHero.jsx
         </button>
       </div>
       <div className="bg-center bg-no-repeat bg-contain min-h-[300px] w-auto min-w-[300px] flex-grow">
