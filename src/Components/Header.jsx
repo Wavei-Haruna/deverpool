@@ -30,7 +30,7 @@ export default function Header() {
           <ul
             className={`
               flex absolute md:items-center md:h-fit px-6 space-y-2 left-0 -mt-3 md:mt-0 py-2 bg-white shadow-md transition-all duration-300 ease-in-out 
-              md:justify-center md:relative md:space-y-0 md:justify-between flex-col md:flex-row text-[#666666] md:space-x-10 font-menu 
+               md:relative md:space-y-0 md:justify-between flex-col md:flex-row text-[#666666] md:space-x-10 font-menu 
               ${
                 !isOpen
                   ? "-translate-x-full h-screen  pt-1 mt-0 md:translate-x-0"
