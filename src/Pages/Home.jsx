@@ -2,8 +2,8 @@ import React from "react";
 import TopHero from "../Components/TopHero";
 import Featured from "../Components/FeaturedApps";
 import NewApps from "../Components/NewApps";
-import AnimCp from "../Components/Anim";
 import AboutCp from "../Components/AboutCp";
+import HowItWorks from "../Components/HowItWorks";
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
       <Featured />
       <NewApps />
       <AboutCp />
+      <HowItWorks />
       <br />
-      <AnimCp />
     </div>
   );
 }
