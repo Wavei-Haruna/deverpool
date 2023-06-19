@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 export default function AboutCp() {
   return (
     <main className={`mt-20 relative`}>
-      <div className="relative bg-primBgBlue text-sm text-white font-menu rounded-2xl w-3/4 p-9 pr-36 pt-24">
+      <div className="relative bg-[#0b4bef] text-sm text-white font-menu rounded-2xl w-3/4 p-9 pr-36 pt-24">
         <div className="absolute left-0 top-6">
           <h2 className="ml-16 mb-2 capitalize text-[22px] font-semibold font-hero">
             About deverpool

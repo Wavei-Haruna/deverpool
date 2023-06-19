@@ -7,12 +7,7 @@ export default {
       hero: ["Montserrat Alternates"],
     },
     extend: {
-      colors: {
-        primaryBlue: "var(--primary-blue)",
-      },
-      backgroundColor:{
-        primBgBlue: "var(--primary-blue)",
-      }
+      
     },
   },
   plugins: [],
