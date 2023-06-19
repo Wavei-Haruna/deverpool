@@ -7,7 +7,6 @@ import Explore from "./Pages/Explore";
 import CustomApp from "./Pages/CustomApp";
 import Register from "./Pages/Register";
 import ContactUs from "./Pages/ContactUs";
-import TestFirst from "./Pages/test";
 
 function App() {
   const [count, setCount] = useState(0);
