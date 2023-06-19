@@ -6,9 +6,7 @@ export default {
       menu: ["poppins"],
       hero: ["Montserrat Alternates"],
     },
-    extend: {
-      
-    },
+    extend: {},
   },
   plugins: [],
 };
