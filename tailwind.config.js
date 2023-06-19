@@ -6,7 +6,14 @@ export default {
       menu: ["poppins"],
       hero: ["Montserrat Alternates"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primaryBlue: "var(--primary-blue)",
+      },
+      backgroundColor:{
+        primBgBlue: "var(--primary-blue)",
+      }
+    },
   },
   plugins: [],
 };
