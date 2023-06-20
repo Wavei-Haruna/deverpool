@@ -10,7 +10,7 @@ export default function HowItWorks() {
   return (
     <main className="my-28 w-full">
       <h1 className="main-title">How it Works</h1>
-      <section className="grid grid-cols-6 gap-2 mt-10 bg-black text-white">
+      <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 mt-10 bg-black text-white">
         <Link to={"/browse-and-discover"} className="bg-primaryBlue flex p-3  ">
           <div className="flex flex-col gap-3 items-center p-2 justify-between">
             <span>
@@ -63,7 +63,7 @@ export default function HowItWorks() {
           </div>
         </Link>
       </section>
-      <section className="bg-labBlack text-white p-3 pt-12  font-menu my-4 h-60 relative text-xl">
+      <section className="bg-labBlack text-white p-3 pt-12  font-menu my-4 min-h-[260px] relative text-xl">
         <div className="absolute right-0 left-[10vw] h-4 bg-primaryBlue top-0"></div>
         <p>
           Start your journey by browsing through our extensive collection of

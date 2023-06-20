@@ -12,10 +12,10 @@ export default function Footer() {
   return (
     <main className="bg-[#262626] text-white px-[2vw] font-menu pt-7">
       <section
-        className="grid grid-cols-3"
-        style={{ gridTemplateColumns: "40% 30% 30%" }}
+        className="flex flex-wrap gap-10 justify-center"
+        // style={{ gridTemplateColumns: "40% 30% 30%" }}
       >
-        <div className="px-5">
+        <div className="min-w-[250px] max-w-[33%] px-5">
           <img src={Logo} alt="logo" className="h-16 w-auto" />
           <div>
             <p className=" text-2xl my-5">
@@ -29,10 +29,10 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="h-16 w-auto flex items-center justify-center  ">
+          <div className="min-w-[250px] max-w-[33%] h-16 w-auto flex items-center justify-center ">
             Contact
           </div>
-          <ul className="block space-y-6 py-8 h-96 border-[1.5px] px-4 border-t-0 border-b-0 border-primaryGreen">
+          <ul className="block space-y-6 py-8 h-96 border-[1.5px] px-4 border-t-0 border-b-0 sm:border-r-0 md:border-r border-primaryGreen">
             <li className="grid gap-3">
               <h2 className="flex items-center text-2xl gap-3">
                 <AiOutlineMail />
@@ -55,10 +55,10 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="h-16 w-auto flex items-center justify-center ">
+          <div className="min-w-[250px] max-w-[33%] h-16 w-auto flex items-center justify-center sm:mt-7 ">
             Social media
           </div>
-          <ul className="px-5 grid gap-4 py-8 h-96">
+          <ul className="px-5 grid gap-4 py-8 sm:pt-0 h-96">
             <li className="flex gap-4 items-center">
               <FaFacebook className="text-3xl" />
               Facebook
