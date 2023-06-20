@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="bg-white shadow-md h-fit w-full m-0 px-2 fixed top-0 ">
+    <nav className="bg-white shadow-md h-fit w-full m-0 px-2 fixed top-0 z-30">
       <header className="md:flex items-center justify-between max-w-6xl w-full mx-auto">
         <div className="flex items-center justify-between">
           <img className="h-24" src={Logo} alt="logo" />

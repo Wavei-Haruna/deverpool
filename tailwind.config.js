@@ -9,6 +9,9 @@ export default {
     extend: {
       colors: {
         primary: "#04ff07",
+        primaryGreen: "var(--primary-green)",
+        primaryBlue: "var(--primary-blue)",
+        labBlack: "var(--labBlack)",
       },
     },
   },

@@ -5,6 +5,8 @@
 
 :root {
   --primary-blue: #0b4bef;
+  --primary-green: #4bb543;
+  --labBlack: #262626;
 }
 .basic-input,
 .basic-select {
@@ -20,10 +22,6 @@
   @apply bg-inherit border focus-within:outline outline-[black] outline-2;
 }
 
-.basic-table,
-.basic-table-td,
-.basic-table-th {
-}
 
 /* BUTTONS */
 .default-btn {
