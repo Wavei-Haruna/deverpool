@@ -1,6 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import { apps } from "../assets/data/apps";
-import AppThumbnail from "./Utils/Cust-elements";
+import AppThumbnail from "./Utils/CustElements";
 export default function Featured() {
   return (
     <main className="my-12 w-full">

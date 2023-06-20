@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { data } from "../assets/data/files";
+import { data } from "../../assets/data/files";
 import { FaArrowRight } from "react-icons/fa";
 const content = {
   headline:
