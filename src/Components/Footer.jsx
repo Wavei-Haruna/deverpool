@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="min-w-[250px] max-w-[33%] h-16 w-auto flex items-center justify-center ">
             Contact
           </div>
-          <ul className="block space-y-6 py-8 h-96 border-[1.5px] px-4 border-t-0 border-b-0 sm:border-r-0 md:border-r border-primaryGreen">
+          <ul className="block space-y-6 py-8 h-96 border-[1.5px] px-4 border-t-0 border-b-0 sm:border-r-0 md:border-r-[1.5px] border-primaryGreen">
             <li className="grid gap-3">
               <h2 className="flex items-center text-2xl gap-3">
                 <AiOutlineMail />
