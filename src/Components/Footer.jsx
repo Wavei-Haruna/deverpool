@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="min-w-[250px] max-w-[33%] h-16 w-auto flex items-center justify-center sm:mt-7 ">
+          <div className="min-w-[250px] max-w-[33%] h-16 w-auto flex items-center justify-center sm:mt-7 md:mt-0">
             Social media
           </div>
           <ul className="px-5 grid gap-4 py-8 sm:pt-0 h-96">
