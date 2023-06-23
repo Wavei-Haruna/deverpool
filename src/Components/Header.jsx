@@ -34,7 +34,7 @@ export default function Header() {
               ${
                 !isOpen
                   ? "-translate-x-full h-screen  pt-1 mt-0 md:translate-x-0"
-                  : "translate-x-0 h-screen pt-1 mt-0 "
+                  : "translate-x-0 h-screen pt-1 mt-0 bg-green-100 md:bg-white"
               }
             `}
           >
