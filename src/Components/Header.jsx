@@ -34,14 +34,14 @@ export default function Header() {
               ${
                 !isOpen
                   ? "-translate-x-full h-screen  pt-1 mt-0 md:translate-x-0"
-                  : "translate-x-0 h-screen pt-1 mt-0 bg-green-200 "
+                  : "translate-x-0 h-screen pt-1 mt-0 bg-green-100 md:bg-white"
               }
             `}
           >
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/") && "border-b-[#04ff07] font-semibold"}
+                ${path("/") && "border-b-primary font-semibold"}
               `}
               onClick={() => navigate("/")}
             >
@@ -50,14 +50,14 @@ export default function Header() {
             <Explore
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/explore") && "border-b-[#04ff07] font-semibold"}
+                ${path("/explore") && "border-b-primary font-semibold"}
               `}
               onClick={() => navigate("/explore")}
             />
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/custom-app") && "border-b-[#04ff07] font-semibold"}
+                ${path("/custom-app") && "border-b-primary font-semibold"}
               `}
               onClick={() => navigate("/custom-app")}
             >
@@ -66,7 +66,7 @@ export default function Header() {
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/contact-us") && "border-b-[#04ff07] font-semibold"}
+                ${path("/contact-us") && "border-b-primary font-semibold"}
               `}
               onClick={() => navigate("/contact-us")}
             >
@@ -75,7 +75,7 @@ export default function Header() {
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/about-us") && "border-b-[#04ff07] font-semibold"}
+                ${path("/about-us") && "border-b-primary font-semibold"}
               `}
               onClick={() => navigate("/about-us")}
             >
@@ -84,7 +84,7 @@ export default function Header() {
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/register") && "border-b-[#04ff07] font-semibold"}
+                ${path("/register") && "border-b-primary font-semibold"}
               `}
               onClick={() => navigate("/register")}
             >
