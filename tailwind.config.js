@@ -2,11 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      menu: ["poppins"],
-      hero: ["Montserrat Alternates"],
-    },
     extend: {
+      fontFamily: {
+        menu: ["poppins"],
+        hero: ["Montserrat Alternates"],
+      },
       colors: {
         primary: "#04ff07",
         primaryGreen: "var(--primary-green)",
