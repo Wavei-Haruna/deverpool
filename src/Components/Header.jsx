@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <nav className="bg-white shadow-md h-fit w-full m-0 px-2 fixed top-0 z-30">
       <header className="md:flex items-center justify-between max-w-6xl w-full mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between font-menu">
           <img className="h-24" src={Logo} alt="logo" />
           <div className="md:hidden">
             <Hamburger
@@ -34,14 +34,14 @@ export default function Header() {
               ${
                 !isOpen
                   ? "-translate-x-full h-screen  pt-1 mt-0 md:translate-x-0"
-                  : "translate-x-0 h-screen pt-1 mt-0 bg-green-100"
+                  : "translate-x-0 h-screen pt-1 mt-0 bg-green-200 "
               }
             `}
           >
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/") && "border-b-primary font-semibold"}
+                ${path("/") && "border-b-[#04ff07] font-semibold"}
               `}
               onClick={() => navigate("/")}
             >
@@ -50,14 +50,14 @@ export default function Header() {
             <Explore
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/explore") && "border-b-primary font-semibold"}
+                ${path("/explore") && "border-b-[#04ff07] font-semibold"}
               `}
               onClick={() => navigate("/explore")}
             />
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/custom-app") && "border-b-primary font-semibold"}
+                ${path("/custom-app") && "border-b-[#04ff07] font-semibold"}
               `}
               onClick={() => navigate("/custom-app")}
             >
@@ -66,7 +66,7 @@ export default function Header() {
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/contact-us") && "border-b-primary font-semibold"}
+                ${path("/contact-us") && "border-b-[#04ff07] font-semibold"}
               `}
               onClick={() => navigate("/contact-us")}
             >
@@ -75,7 +75,7 @@ export default function Header() {
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/about-us") && "border-b-primary font-semibold"}
+                ${path("/about-us") && "border-b-[#04ff07] font-semibold"}
               `}
               onClick={() => navigate("/about-us")}
             >
@@ -84,7 +84,7 @@ export default function Header() {
             <li
               className={`
                 cursor-pointer hover:scale-105 transition duration-300 ease-in-out w-fit border-b-2 border-b-transparent 
-                ${path("/register") && "border-b-primary font-semibold"}
+                ${path("/register") && "border-b-[#04ff07] font-semibold"}
               `}
               onClick={() => navigate("/register")}
             >
