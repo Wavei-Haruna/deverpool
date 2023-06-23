@@ -5,7 +5,7 @@ export default function Featured() {
   return (
     <main className="my-12 w-full">
       <div className="flex justify-between items-center w-full px-5">
-        <h2 className=" text-xl  md:text-2xl font-hero font-menu">Featured</h2>
+        <h2 className=" text-xl  md:text-2xl font-menu">Featured</h2>
         <div className="basic-inputWrapper flex items-center px-2 py-2 rounded ">
           <input
             type="text"
